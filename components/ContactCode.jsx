@@ -3,8 +3,8 @@ import styles from '../styles/ContactCode.module.css';
 const contactItems = [
   {
     social: 'website',
-    link: 'nitinranganath.me',
-    href: 'https://nitinranganath.me',
+    link: 'https://omar-hisham.vercel.app/',
+    href: 'https://omar-hisham.vercel.app/',
   },
   {
     social: 'email',
