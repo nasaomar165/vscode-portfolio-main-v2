@@ -1,0 +1,90 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.imageContainer {
+  margin-bottom: 1rem;
+}
+
+.universityImage {
+  border-radius: 50%;
+}
+
+.content {
+  width: 100%;
+  text-align: center;
+}
+
+.institutionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.institution {
+  margin: 0;
+  color: var(--accent-color);
+  font-size: 1.2rem;
+}
+
+.location {
+  font-size: 0.8rem;
+  color: var(--text-color);
+  margin-top: 0.25rem;
+}
+
+.degree {
+  margin: 0.5rem 0;
+  font-weight: bold;
+}
+
+.year {
+  margin: 0.5rem 0;
+  color: var(--text-color);
+}
+
+.achievements {
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.achievements h4 {
+  margin-bottom: 0.5rem;
+}
+
+.achievements ul {
+  padding-left: 1.5rem;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .imageContainer {
+    margin-right: 1rem;
+    margin-bottom: 0;
+  }
+
+  .content {
+    text-align: left;
+  }
+
+  .institutionContainer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .location {
+    margin-top: 0;
+    margin-left: 0.5rem;
+  }
+}

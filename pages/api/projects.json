@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Powertrips",
+    "image": "https://utfs.io/f/R5EIkIsFyzDgOuM0Kgw7fF1TYwE3vpGWmOnABjKyqNkMozJU",
+    "description": "Build and deploy Travel Agency Landing Page",
+    "tags": ["html", "php", "javascript", "mysql", "css"],
+    "demo": "http://powertrips.rf.gd/"
+  },
+  {
+    "id": 2,
+    "name": "Haby Furniture",
+    "image": "https://utfs.io/f/R5EIkIsFyzDgB0s6xJNO3rq8DlUJhvIFGcuXWVm9CLTnoxsB",
+    "description": "E-commerce website for a Furniture manufacturing company",
+    "tags": ["react", "node", "mysql", "redux", "html", "css"],
+    "demo": "https://habyfurniture.com/"
+  },
+  {
+    "id": 3,
+    "name": "Khodar.com",
+    "image": "https://imgur.com/8FFqaX8.png",
+    "description": "Contributing the creation of the design system for Food online store.",
+    "tags": ["node", "express", "html", "css"],
+    "demo": "https://premier.khodar.com/en/"
+  },
+  {
+    "id": 4,
+    "name": "VSCode Portfolio v1",
+    "image": "https://imgur.com/mKkz0iz.png",
+    "description": "A themeable and developer-centric portfolio based on the VSCode",
+    "tags": ["react", "css-modules"],
+    "source_code": "https://github.com/nasaomar165/VSC-Portfolio",
+    "demo": "https://omar-ibrahim.vercel.app/"
+  }
+]
