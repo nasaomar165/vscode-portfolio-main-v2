@@ -10,7 +10,7 @@ const AboutPage = () => {
       const downloadUrl = window.URL.createObjectURL(blob);
       const link = document.createElement('a');
       link.href = downloadUrl;
-      link.download = 'Omar_Ibrahim_Resume.pdf';
+      link.download = 'Omar_Hisham_Resume.pdf';
       document.body.appendChild(link);
       link.click();
       link.remove();
@@ -22,7 +22,7 @@ const AboutPage = () => {
   return (
     <div className={styles.container}>
       <span className={styles.greeting}>Hi there!👋 My name is</span>
-      <h1 className={styles.name}>Omar Ibrahim.</h1>
+      <h1 className={styles.name}>Omar Hisham.</h1>
       <h2 className={styles.tagline}>I build stuff for the web.</h2>
       <h3 className={styles.description}>
         I am a Computer Engineer focused on Web Development. Currently looking for a job 😀.
