@@ -3,7 +3,7 @@ import styles from '../styles/AboutPage.module.css';
 
 const AboutPage = () => {
   const handleDownload = async () => {
-    const url = 'https://utfs.io/f/R5EIkIsFyzDgJN1W1W9lhZrgInFsjvak13dxcKPMEqQ0bRCo';
+    const url = 'https://drive.usercontent.google.com/u/0/uc?id=1I7xcXnQnzg9s0NZwQ-uDHsmwV9Drme1a&export=download';
     try {
       const response = await fetch(url);
       const blob = await response.blob();
