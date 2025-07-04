@@ -2,21 +2,13 @@ import Link from 'next/link';
 import styles from '../styles/AboutPage.module.css';
 
 const AboutPage = () => {
-  const handleDownload = async () => {
-    const url = 'https://utfs.io/f/R5EIkIsFyzDgJN1W1W9lhZrgInFsjvak13dxcKPMEqQ0bRCo';
-    try {
-      const response = await fetch(url);
-      const blob = await response.blob();
-      const downloadUrl = window.URL.createObjectURL(blob);
-      const link = document.createElement('a');
-      link.href = downloadUrl;
-      link.download = 'Omar_Hisham_Resume.pdf';
-      document.body.appendChild(link);
-      link.click();
-      link.remove();
-    } catch (error) {
-      console.error('Download failed:', error);
-    }
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = '/Omar_Hisham_Resume.pdf'; // File should be in public directory
+    link.download = 'Omar_Hisham_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
   };
 
   return (
