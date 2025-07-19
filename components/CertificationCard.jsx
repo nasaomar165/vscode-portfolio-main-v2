@@ -38,7 +38,8 @@ const CertificationCard = ({ username }) => {
   if (loading) return <div>Loading...</div>;
   if (!badges || badges.length === 0) return <div>No certifications found</div>;
   return (
-    Array.isArray(badges) && badges.map((data) => (
+    <>
+    {Array.isArray(badges) && badges.map((data) => (
       <div className={styles.container} key={data.id}>
         <div className={styles.imageContainer}>
           <Image
@@ -72,7 +73,8 @@ const CertificationCard = ({ username }) => {
       
       </div>
    
-    ))
+    ))}
+     </>
   );
 };
 
