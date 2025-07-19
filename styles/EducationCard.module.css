@@ -13,6 +13,13 @@
 .universityImage {
   border-radius: 50%;
 }
+.divider{
+ border-top: 1px solid var(--text-color);
+ width: 100%;
+ margin-top: 10px;
+ margin-bottom: -1rem;
+ opacity: 0.2;
+}
 
 .content {
   width: 100%;
@@ -60,6 +67,30 @@
 .achievements ul {
   padding-left: 1.5rem;
   margin: 0;
+}
+.skills {
+  text-align: left;
+  margin-top: 1rem;
+  margin-right: 10px; 
+
+}
+.skills li {
+  background-color: color-mix(in srgb, var(--article-bg) 90%, white);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+.skills h4 {
+  margin-bottom: 0.5rem;
+}
+
+.skills ul {
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0;
+  display: flex; 
+  flex-wrap: wrap;
+  gap: 10px; 
 }
 
 @media (min-width: 768px) {
