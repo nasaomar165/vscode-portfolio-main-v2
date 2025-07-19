@@ -5,6 +5,7 @@ module.exports = {
       'avatars.githubusercontent.com',
       'imgur.com',
       'utfs.io',
+      'images.credly.com',
     ],
   },
 };
