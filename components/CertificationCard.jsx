@@ -36,7 +36,6 @@ const CertificationCard = ({ username }) => {
   }, [username]);
 
   if (loading) return <div>Loading...</div>;
-  console.log(badges)
   if (!badges || badges.length === 0) return <div>No certifications found</div>;
   return (
     Array.isArray(badges) && badges.map((data) => (
