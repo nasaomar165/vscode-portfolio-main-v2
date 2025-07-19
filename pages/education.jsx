@@ -1,6 +1,6 @@
 import EducationCard from '../components/EducationCard';
+import CertificationCard from '../components/CertificationCard';
 import styles from '../styles/EducationPage.module.css';
-
 const EducationPage = ({ educationList }) => {
   return (
     <>
@@ -9,6 +9,12 @@ const EducationPage = ({ educationList }) => {
         {educationList.map((education) => (
           <EducationCard key={education.id} education={education} />
         ))}
+      </div>
+      <h3>My Certifications</h3>
+      <div className={styles.container}>
+       
+          <CertificationCard username="omar-h-ibrahim" />
+        
       </div>
     </>
   );
@@ -27,7 +33,6 @@ export async function getStaticProps() {
     },
     // Add more education entries as needed
   ];
-
   return {
     props: { title: 'Education', educationList },
   };
